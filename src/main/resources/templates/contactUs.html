@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>iFFiMw - Digital Marketing Agency</title>
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Scada:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Yeseva+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/contactUs.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+
+	<!-- AOS Library CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+</head>
+
+<body>
+
+<!-- Footer (Contact Section) -->
+<footer id="contact" class="bg-dark text-white text-center py-5" data-aos="fade-up">
+    <div class="container">
+        <!-- Section Title -->
+        <h2 class="mb-4">Have questions? <br /><strong>Shoot us an email.</strong></h2>
+        <p class="lead mb-4">
+            We provide the latest news and insights about SEO, search, and how it impacts your business—and career.
+            <br />
+            Let us know your feedback, and we’ll get back to you!
+        </p>
+        <!-- Form -->
+        <form method="post" action="/home" class="mx-auto" style="max-width: 600px;">
+            <!-- Dropdown -->
+            <div class="mb-3">
+                <select name="reason" class="form-select" required>
+                    <option selected disabled>How can we help?</option>
+                    <option value="advertise">I want to advertise</option>
+                    <option value="reporter">I’m a reporter or work in the media</option>
+                    <option value="write">I want to write for you</option>
+                    <option value="bug">I want to report a bug or issue</option>
+                    <option value="other">I need something else</option>
+                </select>
+            </div>
+            <!-- Name Field -->
+            <div class="mb-3">
+                <input type="text" name="name" class="form-control" placeholder="Your Name *" required />
+            </div>
+            <!-- Email Field -->
+            <div class="mb-3">
+                <input type="email" name="email" class="form-control" placeholder="Your Email *" required />
+            </div>
+            <!-- Message Field -->
+            <div class="mb-3">
+                <textarea name="message" rows="4" class="form-control" placeholder="Your Message *" required></textarea>
+            </div>
+            <!-- Optional File Upload -->
+            <div class="mb-3">
+                <label for="screenshot" class="form-label text-muted">Screenshot (optional):</label>
+                <input type="file" id="screenshot" name="screenshot" class="form-control" />
+            </div>
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-warning w-100 py-2">Send</button>
+        </form>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+	<script>AOS.init();</script>
+</body>

@@ -1,0 +1,39 @@
+/* Custom Styles */
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+}
+.navbar {
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3{
+	font-family: "Yeseva One", serif;
+	  font-weight: 400;
+	  font-style: normal;
+}
+.about-section, .mission-section, .vision-section {
+    padding: 2rem 0;
+}
+.innovative-section {
+    background-color: #000;
+    color: #fff;
+    padding: 3rem 0;
+}
+.testimonial-section {
+    background-color: #007bff;
+    color: #fff;
+    padding: 2rem 0;
+}
+.footer {
+    background-color: #111;
+    color: #fff;
+    padding: 1.5rem 0;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
